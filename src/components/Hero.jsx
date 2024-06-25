@@ -44,7 +44,7 @@ function Hero() {
               </h1>
               <p>
               Sewa kereta impian anda. 
-              Harga tidak terkalahkan, jarak tanpa had, pilihan pengambilan yang fleksibel dan banyak lagi.
+              Harga tidak masuk akal, jarak tanpa had, pilihan pengambilan yang fleksibel dan banyak lagi.
               </p>
               <div className="hero-content__text__btns">
                 <Link
