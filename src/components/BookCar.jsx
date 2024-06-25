@@ -163,25 +163,25 @@ function BookCar() {
         <div className="container">
           <div className="book-content">
             <div className="book-content__box">
-              <h2>Book a car</h2>
+              <h2>Tempah kereta</h2>
 
               <p className="error-message">
-                All fields required! <IconX width={20} height={20} />
+                Semua wajib diisi! <IconX width={20} height={20} />
               </p>
 
               <p className="booking-done">
-                Check your email to confirm an order.{" "}
+              Sila periksa e-mel anda untuk mengesahkan pesanan.{" "}
                 <IconX width={20} height={20} onClick={hideMessage} />
               </p>
 
               <form className="box-form">
                 <div className="box-form__car-type">
                   <label>
-                    <IconCar className="input-icon" /> &nbsp; Select Your Car
-                    Type <b>*</b>
+                    <IconCar className="input-icon" /> &nbsp; Sila pilih kereta
+                    Jenis <b>*</b>
                   </label>
                   <select value={carType} onChange={handleCar}>
-                    <option>Select your car type</option>
+                    <option>Pilih jenis kereta anda.</option>
                     <option value="Axia">Perodua AXIA</option>
                     <option value="Bezza">Perodua BEZZA</option>
                     <option value="Alza">Perodua ALZA</option>
@@ -195,11 +195,11 @@ function BookCar() {
 
                 <div className="box-form__car-type">
                   <label>
-                    <IconMapPinFilled className="input-icon" /> &nbsp; Pick-up{" "}
+                    <IconMapPinFilled className="input-icon" /> &nbsp; Pengambilan{" "}
                     <b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
-                    <option>Select pick up location</option>
+                    <option>Pilih lokasi pengambilan kereta anda.</option>
                     <option>Pasir Mas</option>
                     <option>Kota Bharu</option>
                     <option>Tumpat</option>
@@ -209,11 +209,11 @@ function BookCar() {
 
                 <div className="box-form__car-type">
                   <label>
-                    <IconMapPinFilled className="input-icon" /> &nbsp; Drop-of{" "}
+                    <IconMapPinFilled className="input-icon" /> &nbsp; Penyerahan{" "}
                     <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
-                    <option>Select drop off location</option>
+                    <option>Pilih lokasi penyerahan kereta.</option>
                     <option>Pasir Mas</option>
                     <option>Kota Bharu</option>
                     <option>Tumpat</option>
@@ -223,7 +223,7 @@ function BookCar() {
 
                 <div className="box-form__car-time">
                   <label htmlFor="picktime">
-                    <IconCalendarEvent className="input-icon" /> &nbsp; Pick-up{" "}
+                    <IconCalendarEvent className="input-icon" /> &nbsp; Pengambilan{" "}
                     <b>*</b>
                   </label>
                   <input
@@ -236,7 +236,7 @@ function BookCar() {
 
                 <div className="box-form__car-time">
                   <label htmlFor="droptime">
-                    <IconCalendarEvent className="input-icon" /> &nbsp; Drop-of{" "}
+                    <IconCalendarEvent className="input-icon" /> &nbsp; Penyerahan{" "}
                     <b>*</b>
                   </label>
                   <input
@@ -248,7 +248,7 @@ function BookCar() {
                 </div>
 
                 <button onClick={openModal} type="submit">
-                  Search
+                  Carian
                 </button>
               </form>
             </div>
@@ -261,29 +261,27 @@ function BookCar() {
       <div className={`booking-modal ${modal ? "active-modal" : ""}`}>
         {/* title */}
         <div className="booking-modal__title">
-          <h2>Complete Reservation</h2>
+          <h2>Selesaikan Tempahan</h2>
           <IconX onClick={openModal} />
         </div>
         {/* message */}
         <div className="booking-modal__message">
           <h4>
-            <IconInfoCircleFilled /> Upon completing this reservation enquiry,
-            you will receive:
+            <IconInfoCircleFilled /> Setelah menyelesaikan pertanyaan tempahan ini, anda akan menerima:
           </h4>
           <p>
-            Your rental voucher to produce on arrival at the rental desk and a
-            toll-free customer support number.
+          Baucer sewaan untuk dibawa semasa tiba di kaunter sewaan dan nombor sokongan pelanggan tanpa tol.
           </p>
         </div>
         {/* car info */}
         <div className="booking-modal__car-info">
           <div className="dates-div">
             <div className="booking-modal__car-info__dates">
-              <h5>Location & Date</h5>
+              <h5>Lokasi & Tarikh</h5>
               <span>
                 <IconMapPinFilled />
                 <div>
-                  <h6>Pick-Up Date & Time</h6>
+                  <h6>Tarikh & Masa Pengambilan</h6>
                   <p>
                     {pickTime} /{" "}
                     <input type="time" className="input-time"></input>
@@ -296,7 +294,7 @@ function BookCar() {
               <span>
                 <IconMapPinFilled />
                 <div>
-                  <h6>Drop-Off Date & Time</h6>
+                  <h6>Tarikh & Masa Penyerahan</h6>
                   <p>
                     {dropTime} /{" "}
                     <input type="time" className="input-time"></input>
@@ -309,7 +307,7 @@ function BookCar() {
               <span>
                 <IconMapPinFilled />
                 <div>
-                  <h6>Pick-Up Location</h6>
+                  <h6>Lokasi Pengambilan</h6>
                   <p>{pickUp}</p>
                 </div>
               </span>
@@ -319,7 +317,7 @@ function BookCar() {
               <span>
                 <IconMapPinFilled />
                 <div>
-                  <h6>Drop-Off Location</h6>
+                  <h6>Lokasi Penyerahan</h6>
                   <p>{dropOff}</p>
                 </div>
               </span>
@@ -334,12 +332,12 @@ function BookCar() {
         </div>
         {/* personal info */}
         <div className="booking-modal__person-info">
-          <h4>Personal Information</h4>
+          <h4>Maklumat Peribadi</h4>
           <form className="info-form">
             <div className="info-form__2col">
               <span>
                 <label>
-                  First Name <b>*</b>
+                  Nama Pertama <b>*</b>
                 </label>
                 <input
                   value={name}
@@ -352,7 +350,7 @@ function BookCar() {
 
               <span>
                 <label>
-                  Last Name <b>*</b>
+                  Nama Terakhir <b>*</b>
                 </label>
                 <input
                   value={lastName}
@@ -365,7 +363,7 @@ function BookCar() {
 
               <span>
                 <label>
-                  Phone Number <b>*</b>
+                  Nombor telefon bimbit <b>*</b>
                 </label>
                 <input
                   value={phone}
@@ -378,7 +376,7 @@ function BookCar() {
 
               <span>
                 <label>
-                  Age <b>*</b>
+                  Umur <b>*</b>
                 </label>
                 <input
                   value={age}
@@ -393,7 +391,7 @@ function BookCar() {
             <div className="info-form__1col">
               <span>
                 <label>
-                  Email <b>*</b>
+                  E-mel <b>*</b>
                 </label>
                 <input
                   value={email}
@@ -406,7 +404,7 @@ function BookCar() {
 
               <span>
                 <label>
-                  Address <b>*</b>
+                  Alamat <b>*</b>
                 </label>
                 <input
                   value={address}
@@ -421,7 +419,7 @@ function BookCar() {
             <div className="info-form__2col">
               <span>
                 <label>
-                  City <b>*</b>
+                  Bandar <b>*</b>
                 </label>
                 <input
                   value={city}
@@ -434,7 +432,7 @@ function BookCar() {
 
               <span>
                 <label>
-                  Zip Code <b>*</b>
+                  Kod Zip <b>*</b>
                 </label>
                 <input
                   value={zipcode}
@@ -448,11 +446,11 @@ function BookCar() {
 
             <span className="info-form__checkbox">
               <input type="checkbox"></input>
-              <p>Please send me latest news and updates</p>
+              <p>Sila hantar kepada saya berita dan kemas kini terkini</p>
             </span>
 
             <div className="reserve-button">
-              <button onClick={confirmBooking}>Reserve Now</button>
+              <button onClick={confirmBooking}>Tempah Sekarang</button>
             </div>
           </form>
         </div>

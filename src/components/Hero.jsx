@@ -38,13 +38,13 @@ function Hero() {
           <img className="bg-shape" src={BgShape} alt="bg-shape" />
           <div className="hero-content">
             <div className="hero-content__text">
-              <h4>Plan your trip now</h4>
+              <h4>Rancang perjalanan anda sekarang</h4>
               <h1>
-                Save <span>big</span> with our car rental
+                Jimat <span>besar</span> dengan sewaan kereta kami
               </h1>
               <p>
-                Rent the car of your dreams. Unbeatable prices, unlimited miles,
-                flexible pick-up options and much more.
+              Sewa kereta impian anda. 
+              Harga tidak terkalahkan, jarak tanpa had, pilihan pengambilan yang fleksibel dan banyak lagi.
               </p>
               <div className="hero-content__text__btns">
                 <Link
@@ -52,10 +52,10 @@ function Hero() {
                   className="hero-content__text__btns__book-ride"
                   to="/"
                 >
-                  Book Ride &nbsp; <IconCircleCheck />
+                  Tempah Perjalanan &nbsp; <IconCircleCheck />
                 </Link>
                 <Link className="hero-content__text__btns__learn-more" to="/">
-                  Learn More &nbsp; <IconChevronRight />
+                Ketahui Lebih Lanjut &nbsp; <IconChevronRight />
                 </Link>
               </div>
             </div>

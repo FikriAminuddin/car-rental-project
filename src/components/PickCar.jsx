@@ -20,11 +20,11 @@ function PickCar() {
         <div className="container">
           <div className="pick-container">
             <div className="pick-container__title">
-              <h3>Vehicle Models</h3>
-              <h2>Our rental fleet</h2>
+              <h3>Model Kenderaan</h3>
+              <h2>Fleet Sewaan Kami</h2>
               <p>
-                Choose from a variety of our amazing vehicles to rent for your
-                next adventure or business trip
+              Pilih dari pelbagai model kenderaan yang menakjubkan 
+              untuk disewa bagi pengembaraan atau perjalanan perniagaan anda seterusnya
               </p>
             </div>
             <div className="pick-container__car-content">
