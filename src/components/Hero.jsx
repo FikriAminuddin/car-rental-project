@@ -40,7 +40,7 @@ function Hero() {
             <div className="hero-content__text">
               <h4>Rancang perjalanan anda sekarang</h4>
               <h1>
-                Jimat <span>besar</span> dengan sewaan kereta kami
+                Jimat <span>besar</span> dengan menyewa kereta kami
               </h1>
               <p>
               Sewa kereta impian anda. 
