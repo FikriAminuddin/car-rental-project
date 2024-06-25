@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import CarAxia from "../images/cars-big/axia.png";
-import CarGolf from "../images/cars-big/golf6.jpg";
-import CarToyota from "../images/cars-big/toyotacamry.jpg";
-import CarBmw from "../images/cars-big/bmw320.jpg";
-import CarMercedes from "../images/cars-big/benz.jpg";
-import CarPassat from "../images/cars-big/passatcc.jpg";
+import CarBezza from "../images/cars-big/bezza.png";
+import CarAlza from "../images/cars-big/alza.png";
+import CarSaga from "../images/cars-big/saga.png";
 import { IconCar, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import { IconCalendarEvent } from "@tabler/icons-react";
@@ -129,13 +127,13 @@ function BookCar() {
       imgUrl = CarAxia;
       break;
     case "Bezza":
-      imgUrl = CarGolf;
+      imgUrl = CarBezza;
       break;
     case "Alza":
-      imgUrl = CarToyota;
+      imgUrl = CarAlza;
       break;
     case "Saga":
-      imgUrl = CarBmw;
+      imgUrl = CarSaga;
       break;
     // case "Mercedes-Benz GLK":
     //   imgUrl = CarMercedes;
