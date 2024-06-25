@@ -6,7 +6,7 @@
 
 # Car Rental Landing Page
 
-Landing page for the Converse store built using React, Vite, JavaScript and Tailwind CSS.
+Landing page for the Car Rental built using React, Vite, JavaScript and Tailwind CSS.
 
 ## Live Demo
 
