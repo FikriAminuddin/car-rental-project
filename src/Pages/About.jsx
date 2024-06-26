@@ -20,35 +20,36 @@ function About() {
               alt="car-renting"
             />
             <div className="about-main__text">
-              <h3>About Company</h3>
-              <h2>You start the engine and your adventure begins</h2>
+              <h3>Mengenai Syarikat</h3>
+              <h2>Anda hidupkan enjin dan pengembaraan anda bermula</h2>
               <p>
-                Certain but she but shyness why cottage. Guy the put instrument
-                sir entreaties affronting. Pretended exquisite see cordially the
-                you. Weeks quiet do vexed or whose. Motionless if no to
-                affronting imprudence no precaution. My indulged as disposal
-                strongly attended.
+              Walaupun malu, mengapa pondok. Lelaki itu meletakkan alat memohon. 
+              Berpura-pura cantik melihat dengan mesra anda. 
+              Minggu yang tenang membuat marah atau siapa. 
+              Tidak bergerak jika tidak kepada ketidakprihatinan 
+              yang tidak berhemah tanpa langkah berjaga-jaga. 
+              Saya terlibat sebagai pelupusan yang sangat dihadiri.
               </p>
               <div className="about-main__text__icons">
                 <div className="about-main__text__icons__box">
                   <img src={Box1} alt="car-icon" />
                   <span>
-                    <h4>20</h4>
-                    <p>Car Types</p>
+                    <h4>4</h4>
+                    <p>Jenis kereta</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
                   <img src={Box2} alt="car-icon" />
                   <span>
                     <h4>85</h4>
-                    <p>Rental Outlets</p>
+                    <p>Pusat Penyewaan</p>
                   </span>
                 </div>
                 <div className="about-main__text__icons__box">
                   <img src={Box3} alt="car-icon" className="last-fk" />
                   <span>
                     <h4>75</h4>
-                    <p>Repair Shop</p>
+                    <p>Kedai baiki kereta</p>
                   </span>
                 </div>
               </div>
@@ -61,10 +62,10 @@ function About() {
         <div className="book-banner__overlay"></div>
         <div className="container">
           <div className="text-content">
-            <h2>Book a car by getting in touch with us</h2>
+            <h2>Tempah kereta dengan menghubungi kami</h2>
             <span>
               <IconPhone width={40} height={40} />
-              <h3>(123) 456-7869</h3>
+              <h3>(+6012) 345-67869</h3>
             </span>
           </div>
         </div>

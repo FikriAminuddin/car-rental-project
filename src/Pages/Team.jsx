@@ -10,12 +10,12 @@ import Person6 from "../images/team/6.png";
 
 function Team() {
   const teamPpl = [
-    { img: Person1, name: "Luke Miller", job: "Salesman" },
-    { img: Person2, name: "Michael Diaz", job: "Business Owner" },
-    { img: Person3, name: "Briana Ross", job: "Photographer" },
-    { img: Person4, name: "Lauren Rivera", job: "Car Detailist" },
-    { img: Person5, name: "Martin Rizz", job: "Mechanic" },
-    { img: Person6, name: "Caitlyn Hunt", job: "Menager" },
+    { img: Person1, name: "Ahmad Reedzuan", job: "Jurujual" },
+    { img: Person2, name: "Muhammad Fikri Aminuddin", job: "Pemilik Perniagaan" },
+    { img: Person3, name: "Syahir Hakim", job: "Jurugambar" },
+    { img: Person4, name: "Harris Irman", job: "Penerangan Kereta" },
+    { img: Person5, name: "Iman Farhan", job: "Mekanik" },
+    { img: Person6, name: "Johan Uzair", job: "Pengurus" },
   ];
   return (
     <>
@@ -40,10 +40,10 @@ function Team() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Tempah kereta dengan menghubungi kami</h2>
               <span>
-                <IconPhone width={40} height={40} />
-                <h3>(123) 456-7869</h3>
+              <IconPhone width={40} height={40} />
+              <h3>(+6012) 345-6786</h3>
               </span>
             </div>
           </div>

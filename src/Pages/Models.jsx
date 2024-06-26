@@ -1,11 +1,11 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
-import CarImg1 from "../images/cars-big/audi-box.png";
-import CarImg2 from "../images/cars-big/golf6-box.png";
-import CarImg3 from "../images/cars-big/toyota-box.png";
-import CarImg4 from "../images/cars-big/bmw-box.png";
-import CarImg5 from "../images/cars-big/benz-box.png";
-import CarImg6 from "../images/cars-big/passat-box.png";
+import CarImg1 from "../images/cars-big/axia.png";
+import CarImg2 from "../images/cars-big/bezza.png";
+import CarImg3 from "../images/cars-big/alza.png";
+import CarImg4 from "../images/cars-big/saga.png";
+// import CarImg5 from "../images/cars-big/benz-box.png";
+// import CarImg6 from "../images/cars-big/passat-box.png";
 import { Link } from "react-router-dom";
 import { IconCar, IconPhone, IconStar } from "@tabler/icons-react";
 
@@ -22,7 +22,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Audi A1</p>
+                      <p>Perodua AXIA</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -32,27 +32,27 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$45</h4>
-                      <p>per day</p>
+                      <h4>RM40</h4>
+                      <p>sehari</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Audi
+                      <IconCar /> &nbsp; Perodua
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatik
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Diesel &nbsp; <IconCar />
+                      Petrol &nbsp; <IconCar />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Tempah kereta
                     </Link>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Golf 6</p>
+                      <p>Perodua BEZZA</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -75,27 +75,27 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$37</h4>
-                      <p>per day</p>
+                      <h4>RM30</h4>
+                      <p>sehari</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; VW
+                      <IconCar /> &nbsp; Perodua
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatik
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Diesel &nbsp; <IconCar />
+                      Petrol &nbsp; <IconCar />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                    Tempah kereta
                     </Link>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Toyota</p>
+                      <p>Perodua ALZA</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -118,27 +118,27 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$30</h4>
-                      <p>per day</p>
+                      <h4>RM70</h4>
+                      <p>sehari</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Camry
+                      <IconCar /> &nbsp; Perodua
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatik
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Diesel &nbsp; <IconCar />
+                      Petrol &nbsp; <IconCar />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Tempah kereta
                     </Link>
                   </div>
                 </div>
@@ -151,7 +151,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>BMW 320</p>
+                      <p>Proton Saga</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -161,34 +161,34 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$35</h4>
-                      <p>per day</p>
+                      <h4>RM30</h4>
+                      <p>sehari</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; ModernLine
+                      <IconCar /> &nbsp; Proton
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatik
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Diesel &nbsp; <IconCar />
+                      Petrol &nbsp; <IconCar />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
                     <Link onClick={() => window.scrollTo(0, 0)} to="/">
-                      Book Ride
+                      Tempah kereta
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="models-div__box">
+            {/* <div className="models-div__box">
               <div className="models-div__box__img">
                 <img src={CarImg5} alt="car_img" />
                 <div className="models-div__box__descr">
@@ -229,9 +229,9 @@ function Models() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="models-div__box">
+            {/* <div className="models-div__box">
               <div className="models-div__box__img">
                 <img src={CarImg6} alt="car_img" />
                 <div className="models-div__box__descr">
@@ -272,17 +272,17 @@ function Models() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="book-banner">
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+              <h2>Tempah kereta dengan menghubungi kami</h2>
               <span>
                 <IconPhone width={40} height={40} />
-                <h3>(123) 456-7869</h3>
+                <h3>(+6012) 345-6786</h3>
               </span>
             </div>
           </div>

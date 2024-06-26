@@ -11,43 +11,43 @@ function Contact() {
         <div className="container">
           <div className="contact-div">
             <div className="contact-div__text">
-              <h2>Need additional information?</h2>
+              <h2>Perlu maklumat tambahan?</h2>
               <p>
-                A multifaceted professional skilled in multiple fields of
-                research, development as well as a learning specialist. Over 15
-                years of experience.
+              Seorang profesional pelbagai aspek yang 
+              mahir dalam pelbagai bidang penyelidikan, 
+              pembangunan serta pakar pembelajaran. Lebih 15 tahun pengalaman.
               </p>
               <a href="/">
-                <IconPhone /> &nbsp; (123) 456-7869
+                <IconPhone /> &nbsp; (+6012) 345-67869
               </a>
               <a href="/">
                 <IconMail /> &nbsp; carrental@carmail.com
               </a>
               <a href="/">
                 <IconLocation />
-                &nbsp; Belgrade, Serbia
+                &nbsp; Pasir Mas, Malaysia
               </a>
             </div>
             <div className="contact-div__form">
               <form>
                 <label>
-                  Full Name <b>*</b>
+                  Nama Penuh <b>*</b>
                 </label>
-                <input type="text" placeholder='E.g: "Joe Shmoe"'></input>
+                <input type="text" placeholder='E.g: "Fikri Aminuddin"'></input>
 
                 <label>
-                  Email <b>*</b>
+                  E-mel <b>*</b>
                 </label>
                 <input type="email" placeholder="youremail@example.com"></input>
 
                 <label>
-                  Tell us about it <b>*</b>
+                Beritahu kami mengenainya <b>*</b>
                 </label>
-                <textarea placeholder="Write Here.."></textarea>
+                <textarea placeholder="Tulis disini.."></textarea>
 
                 <button type="submit">
                   <IconMailOpened />
-                  &nbsp; Send Message
+                  &nbsp; Hantar Mesej
                 </button>
               </form>
             </div>
@@ -57,10 +57,10 @@ function Contact() {
           <div className="book-banner__overlay"></div>
           <div className="container">
             <div className="text-content">
-              <h2>Book a car by getting in touch with us</h2>
+            <h2>Tempah kereta dengan menghubungi kami</h2>
               <span>
                 <IconPhone width={40} height={40} />
-                <h3>(123) 456-7869</h3>
+                <h3>(+6012) 345-6786</h3>
               </span>
             </div>
           </div>
