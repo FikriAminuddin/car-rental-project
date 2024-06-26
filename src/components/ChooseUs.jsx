@@ -17,18 +17,17 @@ function ChooseUs() {
             />
             <div className="text-container">
               <div className="text-container__left">
-                <h4>Why Choose Us</h4>
-                <h2>Best valued deals you will ever find</h2>
+                <h4>Mengapa Pilih Kami</h4>
+                <h2>Tawaran terbaik yang anda pernah jumpa</h2>
                 <p>
-                  Discover the best deals you'll ever find with our unbeatable
-                  offers. We're dedicated to providing you with the best value
-                  for your money, so you can enjoy top-quality services and
-                  products without breaking the bank. Our deals are designed to
-                  give you the ultimate renting experience, so don't miss out on
-                  your chance to save big.
+                Temui tawaran terbaik yang pernah anda jumpa dengan tawaran kami yang tidak dapat ditandingi. 
+                Kami berusaha untuk memberikan nilai terbaik untuk wang anda, supaya anda boleh menikmati perkhidmatan 
+                dan produk berkualiti tanpa menghancurkan belanjawan anda. 
+                Tawaran kami direka untuk memberikan pengalaman penyewaan yang hebat, 
+                jadi jangan lepaskan peluang anda untuk berjimat besar.
                 </p>
                 <a href="#home">
-                  Find Details &nbsp;
+                Dapatkan Butiran &nbsp;
                   <IconChevronRight />
                 </a>
               </div>
@@ -36,10 +35,10 @@ function ChooseUs() {
                 <div className="text-container__right__box">
                   <img src={Box1} alt="car-img" />
                   <div className="text-container__right__box__text">
-                    <h4>Cross Country Drive</h4>
+                    <h4>Pandu Melintasi Negara</h4>
                     <p>
-                      Take your driving experience to the next level with our
-                      top-notch vehicles for your cross-country adventures.
+                    Bawa pengalaman memandu anda ke tahap yang lebih tinggi 
+                    dengan kenderaan terbaik kami untuk pengembaraan melintasi negara.
                     </p>
                   </div>
                 </div>
@@ -47,10 +46,10 @@ function ChooseUs() {
                   {" "}
                   <img src={Box2} alt="coin-img" />
                   <div className="text-container__right__box__text">
-                    <h4>All Inclusive Pricing</h4>
+                    <h4>Harga Termasuk Semua</h4>
                     <p>
-                      Get everything you need in one convenient, transparent
-                      price with our all-inclusive pricing policy.
+                    Dapatkan segala-galanya dalam satu harga yang mudah 
+                    dan telus dengan polisi harga termasuk semua kami.
                     </p>
                   </div>
                 </div>
@@ -58,10 +57,10 @@ function ChooseUs() {
                   {" "}
                   <img src={Box3} alt="coin-img" />
                   <div className="text-container__right__box__text">
-                    <h4>No Hidden Charges</h4>
+                    <h4>Tiada Caj Tersembunyi</h4>
                     <p>
-                      Enjoy peace of mind with our no hidden charges policy. We
-                      believe in transparent and honest pricing.
+                    Nikmati ketenangan fikiran dengan polisi tiada caj tersembunyi kami. 
+                    Kami percaya pada penentuan harga yang telus dan jujur.
                     </p>
                   </div>
                 </div>

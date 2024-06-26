@@ -7,11 +7,12 @@ function Download() {
       <section className="download-section">
         <div className="container">
           <div className="download-text">
-            <h2>Download our app to get most out of it</h2>
+            <h2>Muat turun aplikasi kami untuk mendapatkan manfaat sepenuhnya</h2>
             <p>
-              Thrown shy denote ten ladies though ask saw. Or by to he going
-              think order event music. Incommode so intention defective at
-              convinced. Led income months itself and houses you.
+            Walaupun malu, nyatakan sepuluh wanita yang meminta. 
+            Atau dengan dia pergi berfikir untuk acara muzik. 
+            Tidak selesa dengan niat yang cacat pada yang diyakinkan. 
+            Pendapatan yang dipimpin berbulan-bulan itu sendiri dan rumah anda.
             </p>
             <div className="download-text__btns">
               <img alt="download_img" src={Img2} />

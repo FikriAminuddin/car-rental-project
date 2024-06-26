@@ -23,10 +23,10 @@ function Faq() {
           <div className="faq-content">
             <div className="faq-content__title">
               <h5>FAQ</h5>
-              <h2>Frequently Asked Questions</h2>
+              <h2>Soalan Lazim</h2>
               <p>
-                Frequently Asked Questions About the Car Rental Booking Process
-                on Our Website: Answers to Common Concerns and Inquiries.
+              Soalan Lazim Mengenai Proses Tempahan Kereta Sewa di Laman Web Kami: 
+              Jawapan kepada Kebimbangan dan Pertanyaan Umum.
               </p>
             </div>
 
@@ -37,7 +37,7 @@ function Faq() {
                   onClick={() => openQ("q1")}
                   className={`faq-box__question  ${getClassQuestion("q1")}`}
                 >
-                  <p>1. What is special about comparing rental car deals?</p>
+                  <p>1. Apa yang istimewa tentang membandingkan tawaran sewa kereta?</p>
                   <IconChevronDown />
                 </div>
                 <div
@@ -45,13 +45,13 @@ function Faq() {
                   onClick={() => openQ("q1")}
                   className={`faq-box__answer ${getClassAnswer("q1")}`}
                 >
-                  Comparing rental car deals is important as it helps find the
-                  best deal that fits your budget and requirements, ensuring you
-                  get the most value for your money. By comparing various
-                  options, you can find deals that offer lower prices,
-                  additional services, or better car models. You can find car
-                  rental deals by researching online and comparing prices from
-                  different rental companies.
+                  Membandingkan tawaran sewa kereta adalah penting kerana ia membantu 
+                  anda mencari tawaran terbaik yang sesuai dengan bajet dan keperluan anda, 
+                  memastikan anda mendapat nilai yang paling baik untuk wang anda. 
+                  Dengan membandingkan pelbagai pilihan, anda boleh mencari tawaran yang 
+                  menawarkan harga lebih rendah, perkhidmatan tambahan, atau model kereta yang lebih baik. 
+                  Anda boleh mencari tawaran sewa kereta dengan membuat kajian dalam talian dan 
+                  membandingkan harga dari pelbagai syarikat penyewaan.
                 </div>
               </div>
               <div className="faq-box">
@@ -60,7 +60,7 @@ function Faq() {
                   onClick={() => openQ("q2")}
                   className={`faq-box__question ${getClassQuestion("q2")}`}
                 >
-                  <p>2. How do I find the car rental deals?</p>
+                  <p>2. Bagaimana saya boleh mencari tawaran sewa kereta?</p>
                   <IconChevronDown />{" "}
                 </div>
                 <div
@@ -68,13 +68,13 @@ function Faq() {
                   onClick={() => openQ("q2")}
                   className={`faq-box__answer ${getClassAnswer("q2")}`}
                 >
-                  You can find car rental deals by researching online and
-                  comparing prices from different rental companies. Websites
-                  such as Expedia, Kayak, and Travelocity allow you to compare
-                  prices and view available rental options. It is also
-                  recommended to sign up for email newsletters and follow rental
-                  car companies on social media to be informed of any special
-                  deals or promotions.
+                  Anda boleh mencari tawaran sewa kereta dengan membuat kajian dalam talian 
+                  dan membandingkan harga dari pelbagai syarikat penyewaan. 
+                  {/* Laman web seperti Expedia, Kayak, dan Travelocity membolehkan anda 
+                  membandingkan harga dan melihat pilihan sewaan yang tersedia.  */}
+                  Adalah disyorkan untuk mendaftar untuk surat berita e-mel dan 
+                  mengikuti syarikat sewa kereta di media sosial untuk dimaklumkan 
+                  tentang sebarang tawaran istimewa atau promosi.
                 </div>
               </div>
               <div className="faq-box">
@@ -83,7 +83,7 @@ function Faq() {
                   onClick={() => openQ("q3")}
                   className={`faq-box__question ${getClassQuestion("q3")}`}
                 >
-                  <p>3. How do I find such low rental car prices?</p>
+                  <p>3. Bagaimana saya boleh mencari harga sewa kereta yang rendah?</p>
                   <IconChevronDown />
                 </div>
                 <div
@@ -91,14 +91,13 @@ function Faq() {
                   onClick={() => openQ("q3")}
                   className={`faq-box__answer ${getClassAnswer("q3")}`}
                 >
-                  Book in advance: Booking your rental car ahead of time can
-                  often result in lower prices. Compare prices from multiple
-                  companies: Use websites like Kayak, Expedia, or Travelocity to
-                  compare prices from multiple rental car companies. Look for
-                  discount codes and coupons: Search for discount codes and
-                  coupons that you can use to lower the rental price. Renting
-                  from an off-airport location can sometimes result in lower
-                  prices.
+                  Tempah lebih awal: Menempah kereta sewa anda lebih awal sering kali 
+                  boleh menghasilkan harga yang lebih rendah. Bandingkan harga dari 
+                  pelbagai syarikat: Gunakan laman web seperti Kayak, Expedia, atau 
+                  Travelocity untuk membandingkan harga dari pelbagai syarikat penyewaan kereta. 
+                  Cari kod diskaun dan kupon: Cari kod diskaun dan kupon yang boleh anda gunakan 
+                  untuk mengurangkan harga sewaan. Menyewa dari lokasi luar lapangan terbang 
+                  kadang-kadang boleh menghasilkan harga yang lebih rendah.
                 </div>
               </div>
             </div>

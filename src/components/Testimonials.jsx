@@ -9,13 +9,12 @@ function Testimonials() {
         <div className="container">
           <div className="testimonials-content">
             <div className="testimonials-content__title">
-              <h4>Reviewed by People</h4>
-              <h2>Client's Testimonials</h2>
+              <h4>Disemak oleh Pengguna</h4>
+              <h2>Testimoni Pengguna</h2>
               <p>
-                Discover the positive impact we've made on the our clients by
-                reading through their testimonials. Our clients have experienced
-                our service and results, and they're eager to share their
-                positive experiences with you.
+              Temui impak positif yang kami buat ke atas pengguna kami dengan membaca testimoni mereka. 
+              Pengguna kami telah mengalami perkhidmatan dan hasil kami, dan mereka bersemangat untuk 
+              berkongsi pengalaman positif mereka dengan anda.
               </p>
             </div>
 
@@ -25,9 +24,8 @@ function Testimonials() {
                   <IconQuote width={60} height={60} />
                 </span>
                 <p>
-                  "We rented a car from this website and had an amazing
-                  experience! The booking was easy and the rental rates were
-                  very affordable. "
+                "Kami menyewa kereta dari laman web ini dan mengalami pengalaman yang menakjubkan! 
+                Tempahan mudah dan kadar sewa sangat berpatutan."
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
@@ -45,8 +43,8 @@ function Testimonials() {
                   <IconQuote width={60} height={60} />
                 </span>
                 <p>
-                  "The car was in great condition and made our trip even better.
-                  Highly recommend for this car rental website!"
+                "Kereta dalam keadaan baik dan menjadikan perjalanan kami lebih baik. 
+                Sangat disyorkan untuk laman web sewa kereta ini!"
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">

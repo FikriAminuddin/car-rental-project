@@ -11,8 +11,8 @@ function Footer() {
                 <span>CAR</span> Rental
               </li>
               <li>
-                We offers a big range of vehicles for all your driving needs. We
-                have the perfect car to meet your needs.
+              Kami menawarkan pelbagai kenderaan untuk semua keperluan memandu anda. 
+              Kami mempunyai kereta yang sempurna untuk memenuhi keperluan anda.
               </li>
               <li>
                 <a href="tel:+60123456789">
@@ -37,47 +37,47 @@ function Footer() {
                   rel="noreferrer"
                   href="https://fikriaminuddin.github.io/"
                 >
-                  Design by FikriAminuddin
+                  Direka oleh FikriAminuddin
                 </a>
               </li>
             </ul>
 
             <ul className="footer-content__2">
-              <li>Company</li>
+              <li>Syarikat</li>
               <li>
                 <a href="#home">Pasir Mas</a>
               </li>
               <li>
-                <a href="#home">Careers</a>
+                <a href="#home">Kerjaya</a>
               </li>
               <li>
-                <a href="#home">Mobile</a>
+                <a href="#home">Mudah Alih</a>
               </li>
               <li>
                 <a href="#home">Blog</a>
               </li>
               <li>
-                <a href="#home">How we work</a>
+                <a href="#home">Cara Kami Bekerja</a>
               </li>
             </ul>
 
             <ul className="footer-content__2">
-              <li>Working Hours</li>
+              <li>Waktu Bekerja</li>
               <li>Mon - Fri: 9:00AM - 6:00PM</li>
-              <li>Sat: Closed</li>
-              <li>Sun: Closed</li>
+              <li>Sat: Tutup</li>
+              <li>Sun: Tutup</li>
             </ul>
 
             <ul className="footer-content__2">
-              <li>Subscription</li>
+              <li>Langganan</li>
               <li>
-                <p>Subscribe your Email address for latest news & updates.</p>
+                <p>Langgan alamat e-mel anda untuk berita dan kemas kini terkini.</p>
               </li>
               <li>
-                <input type="email" placeholder="Enter Email Address"></input>
+                <input type="email" placeholder="Masukkan Alamat E-mel"></input>
               </li>
               <li>
-                <button className="submit-email">Submit</button>
+                <button className="submit-email">Hantar</button>
               </li>
             </ul>
           </div>
